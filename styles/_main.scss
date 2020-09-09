@@ -1,0 +1,171 @@
+@import "breakpoints";
+
+/* ==========================================================================
+   Author: Sebastian Ross
+   ========================================================================== */
+
+body {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  width:100%;
+  height:100%;
+  background:#fff;
+  background-image: -webkit-linear-gradient(90deg, rgba(85,85,85,0.1),rgba(255,255,255,0) 40%);
+  background-image: linear-gradient(90deg, rgba(85,85,85,0.1),rgba(255,255,255,0) 40%);
+}
+
+.ross_container {
+  margin:0 auto;
+  padding:15px 0;
+  width:95%;
+}
+
+.ross_header-main {
+  width:100%;
+  position:static;
+  margin:0 auto 1em;
+
+  &__h1 {
+    font-size:3.076923077em;/*70 / 13 */;
+    line-height:1em;
+    color:#000;
+    font-weight:normal;
+    font-family:"Code-Light",Helvetica,Arial,sans-serif;
+    text-align:left;
+    text-transform:uppercase;
+    margin-bottom:.2em;
+    margin-top: 10px;
+  }
+
+  @media all and (min-width: $breakpoint-small) {
+    &__h1 {
+      font-size: 3.846153846em; /*70 / 13 */
+      margin-top: 25px;
+    }
+  }
+
+  @media all and (min-width: $breakpoint-large) {
+    width: 407px;
+    position: fixed;
+    right: 2%;
+
+    &__h1 {
+      text-align:right;
+      font-size:6.153846154em;
+      margin-top: 0.67em;
+    }
+  }
+}
+
+.ross_article {
+  margin-bottom:20px;
+
+  p {
+    margin:0 0 10px;
+    line-height:1.5em;
+  }
+
+  p img {
+    display:block;
+    margin:10px auto 10px;
+  }
+
+  a {
+    color: #992E0A;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom:1px solid #992E0A;
+    }
+  }
+
+  .ross_article__header {
+    margin-bottom:8px;
+
+    h2 {
+      font-family:"Existence-Light",Helvetica,Arial,sans-serif;
+      font-size:1.692307692em; /* 22/13 */;
+      letter-spacing:1px;
+      font-weight:normal;
+      text-transform:uppercase;
+      color:#C73B0B;
+      border-bottom:1px solid #C73B0B;
+    }
+  }
+
+  @media all and (min-width: $breakpoint-small) {
+    .ross_article__header h2 {
+      font-size:2.307692308em; /* 22/13 */;
+    }
+
+    p {
+      margin-left:2.5%;
+    }
+
+    p img {
+      float:left;
+      margin:10px 20px 3px -2.5%;
+    }
+  }
+}
+
+.ross_article__aside {
+  background:#EDEDED;
+  padding: 15px 2.5% 10px;
+  margin-bottom:30px;
+
+  p {
+    float:left;
+    clear:left;
+    font-size:.923076923em;
+    line-height:1.2;
+    margin-left:0;
+  }
+
+  h3 {
+    float:left;
+    clear:left;
+    font-size:.923076923em;
+    line-height:1.2;
+    margin: 0;
+  }
+
+  @media all and (min-width: $breakpoint-medium) {
+    p {
+      clear: none;
+      margin-left: 5px;
+    }
+  }
+}
+
+.ross_article--about {
+  border-bottom:1px solid #ececec;
+  margin-bottom:30px;
+  padding-bottom:10px;
+
+  @media all and (min-width: $breakpoint-small) {
+    p {
+      margin-left:0;
+    }
+  }
+}
+
+
+.ross_footer {
+  padding:15px 0;
+  color:#fff;
+  height:100px;
+  background:#000;
+  background-image: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.2),rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(-90deg, rgba(255,255,255,0.2),rgba(255,255,255,0) 100%);
+
+  p {
+    margin:0 auto;
+    width:90%;
+  }
+}
+
+@media all and (min-width: $breakpoint-large) {
+  .ross_main {
+    width: 62.8888889%; /* 566/900 */
+  }
+}
