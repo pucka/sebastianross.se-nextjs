@@ -7,6 +7,8 @@ class MyDocument extends Document {
       <Html lang="sv">
         <Head />
         <body>
+          <Main />
+          <NextScript />
           <div
             dangerouslySetInnerHTML={{
               __html: ` <!--
@@ -48,8 +50,6 @@ class MyDocument extends Document {
               -->`,
             }}
           />
-          <Main />
-          <NextScript />
         </body>
       </Html>
     );

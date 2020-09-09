@@ -7,11 +7,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="description" content="Sebastian Ross - Utvecklare" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1"
         />
+        <meta name="robots" content="noindex"/>
       </Head>
       <Component {...pageProps} />
     </>
