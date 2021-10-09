@@ -12,10 +12,10 @@ export const ArticleDDB = () => {
     <Article header="DDB.se">
       <ArticleSlider>
         <ArticleSlide>
-          <Image src={image2} layout="responsive" alt="" />
+          <Image src={image2} placeholder="blur" layout="responsive" alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image src={image1} layout="responsive" alt="" />
+          <Image src={image1} placeholder="blur" layout="responsive" alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

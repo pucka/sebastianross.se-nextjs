@@ -11,7 +11,7 @@ export const ArticleSvtNews = () => {
     <Article header="SVT Nyheter - Nyhetsapp">
       <ArticleSlider>
         <ArticleSlide>
-          <Image layout="responsive" src={image1} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image1} alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

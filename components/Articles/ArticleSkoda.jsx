@@ -14,16 +14,16 @@ export const ArticleSkoda = () => {
     <Article header="Skoda - Familjekompositören">
       <ArticleSlider>
         <ArticleSlide>
-          <Image layout="responsive" src={image1} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image1} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image2} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image2} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image3} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image3} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image4} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image4} alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

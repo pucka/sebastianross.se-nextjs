@@ -11,7 +11,7 @@ export const ArticleACO = () => {
     <Article header="ACO - Spotless Comeback">
       <ArticleSlider>
         <ArticleSlide>
-          <Image src={image1} layout="responsive" alt="" />
+          <Image src={image1} placeholder="blur" layout="responsive" alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

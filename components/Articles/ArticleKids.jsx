@@ -13,13 +13,13 @@ export const ArticleKids = () => {
     <Article header="Barnkanalen - Snoffe, döden & jag">
       <ArticleSlider>
         <ArticleSlide>
-          <Image layout="responsive" src={snoffe1} alt="" />
+          <Image placeholder="blur" layout="responsive" src={snoffe1} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={snoffe2} alt="" />
+          <Image placeholder="blur" layout="responsive" src={snoffe2} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={snoffe3} alt="" />
+          <Image placeholder="blur" layout="responsive" src={snoffe3} alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

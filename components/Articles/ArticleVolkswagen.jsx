@@ -13,13 +13,13 @@ export const ArticleVolkswagen = () => {
     <Article header="Volkswagen - Bit för bit">
       <ArticleSlider>
         <ArticleSlide>
-          <Image layout="responsive" src={image1} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image1} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image2} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image2} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image3} alt="" />
+          <Image placeholder="blur" layout="responsive" src={image3} alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>

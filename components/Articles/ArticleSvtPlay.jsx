@@ -13,13 +13,13 @@ export const ArticleSvtPlay = () => {
     <Article header="SVT Play">
       <ArticleSlider>
         <ArticleSlide>
-          <Image layout="responsive" src={image1} alt="" />
+          <Image layout="responsive" placeholder="blur" src={image1} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image2} alt="" />
+          <Image layout="responsive" placeholder="blur" src={image2} alt="" />
         </ArticleSlide>
         <ArticleSlide>
-          <Image layout="responsive" src={image3} alt="" />
+          <Image layout="responsive" placeholder="blur" src={image3} alt="" />
         </ArticleSlide>
       </ArticleSlider>
       <p>
