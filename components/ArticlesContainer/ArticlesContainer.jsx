@@ -10,12 +10,13 @@ import {
   ArticleForsvarsmakten,
   ArticleOperan,
   ArticleACO,
-} from "./Articles";
-import About from "./About.jsx";
+} from "../Articles";
+import About from "../Articles/About";
+import styles from "./ArticlesContainer.module.scss";
 
 //TODO: Move all content to CMS
 const ArticlesContainer = () => (
-  <div className="ross_main">
+  <div className={styles.ross_articles__container}>
     <ArticleSvtPlay />
     <ArticleSvtFlow />
     <ArticleSvtNews />

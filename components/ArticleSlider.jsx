@@ -1,8 +1,7 @@
 import Slider from "react-slick";
-import { settings } from "./SlickSliderHelper";
 
 const ArticleSlider = ({ children }) => (
-  <Slider className="slick" {...settings}>
+  <Slider className="slick" lazyLoad draggable>
     {children}
   </Slider>
 );

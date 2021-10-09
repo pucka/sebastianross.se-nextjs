@@ -1,0 +1,36 @@
+@import "breakpoints";
+
+.ross_header-main {
+  width: 100%;
+  position: static;
+  margin: 0 auto 1em;
+
+  @media all and (min-width: $breakpoint-large) {
+    width: 407px;
+    position: fixed;
+    right: 2%;
+  }
+}
+
+.ross_header-main__h1 {
+  font-size: 3.076923077em; /*70 / 13 */
+  line-height: 1em;
+  color: #000;
+  font-weight: normal;
+  font-family: "Code-Light", Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+  margin-top: 10px;
+
+  @media all and (min-width: $breakpoint-small) {
+    font-size: 3.846153846em; /*70 / 13 */
+    margin-top: 25px;
+  }
+
+  @media all and (min-width: $breakpoint-large) {
+    text-align: right;
+    font-size: 6.153846154em;
+    margin-top: 0.67em;
+  }
+}
