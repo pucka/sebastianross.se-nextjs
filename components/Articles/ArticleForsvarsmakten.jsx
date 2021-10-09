@@ -1,6 +1,8 @@
 import Image from "next/image";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 
 import image1 from "../../public/img/case/testvarverklighet/screen1.png";
 import image2 from "../../public/img/case/testvarverklighet/screen2.png";
@@ -9,8 +11,6 @@ import image4 from "../../public/img/case/testvarverklighet/screen4.png";
 import image5 from "../../public/img/case/testvarverklighet/screen5.png";
 import image6 from "../../public/img/case/testvarverklighet/screen6.png";
 import image7 from "../../public/img/case/testvarverklighet/screen7.png";
-import Aside from "../Article/Aside";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleForsvarsmakten = () => {
   return (

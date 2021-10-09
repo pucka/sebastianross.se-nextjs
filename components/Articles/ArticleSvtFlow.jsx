@@ -1,11 +1,11 @@
 import Image from "next/image";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 
 import image1 from "../../public/img/case/svtflow/screen1.jpg";
 import image2 from "../../public/img/case/svtflow/screen2.jpg";
-import Aside from "../Article/Aside";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleSvtFlow = () => {
   return (

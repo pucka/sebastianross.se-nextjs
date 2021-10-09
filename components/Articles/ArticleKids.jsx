@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 import snoffe1 from "../../public/img/case/snoffe/1.png";
-import snoffe2 from "../../public/img/case/snoffe/1.png";
-import snoffe3 from "../../public/img/case/snoffe/1.png";
-import Aside from "../Article/Aside";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
+import snoffe2 from "../../public/img/case/snoffe/2.png";
+import snoffe3 from "../../public/img/case/snoffe/3.png";
 
 export const ArticleKids = () => {
   return (

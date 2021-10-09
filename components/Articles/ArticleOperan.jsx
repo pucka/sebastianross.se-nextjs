@@ -1,10 +1,10 @@
 import Image from "next/image";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 
 import image1 from "../../public/img/case/operasoap/screen1.png";
-import Aside from "../Article/Aside";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleOperan = () => {
   return (

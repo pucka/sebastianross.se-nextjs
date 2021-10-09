@@ -1,12 +1,12 @@
 import Image from "next/image";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Article from "../Article/Article";
 import Aside from "../Article/Aside";
 
 import image1 from "../../public/img/case/bitforbit/screen1.png";
 import image2 from "../../public/img/case/bitforbit/screen2.png";
 import image3 from "../../public/img/case/bitforbit/screen3.png";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleVolkswagen = () => {
   return (

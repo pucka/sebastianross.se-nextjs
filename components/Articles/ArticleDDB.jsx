@@ -1,11 +1,11 @@
 import Image from "next/image";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Article from "../Article/Article";
 import Aside from "../Article/Aside";
 
 import image2 from "../../public/img/case/ddb/2.jpg";
 import image1 from "../../public/img/case/ddb/1.jpg";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleDDB = () => {
   return (

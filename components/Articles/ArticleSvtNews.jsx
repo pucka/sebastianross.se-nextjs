@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 import image1 from "../../public/img/case/svtnyheter/1.jpg";
-import Aside from "../Article/Aside";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleSvtNews = () => {
   return (
