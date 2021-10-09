@@ -15,7 +15,7 @@ export default function Home() {
         <MainHeader />
         <ArticlesContainer />
       </MainContainer>
-      <Footer key="footer" />
+      <Footer />
     </>
   );
 }
