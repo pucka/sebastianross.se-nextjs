@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="sv">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Djurhimlen - Snoffe, döden &amp; jag | SVT.se</title>
+    <meta
+      name="description"
+      content="Har du varit med om att ditt älskade husdjur dött? Hylla ditt djur genom att ladda upp en bild till Djurhimlen."
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="css/81d4b9e.css" />
+
+    <script src="js/vendor/modernizr.custom.44417.js"></script>
+  </head>
+  <body>
+    <div id="snoffeContainer">
+      <div class="bg"></div>
+
+      <div class="views transition-blur clearfix">
+        <div id="start" class="view start-view">
+          <h1 class="start-header ir">Djurhimlen</h1>
+          <p class="ingress">
+            Har du varit med om att ditt älskade husdjur dött? Hylla ditt djur
+            genom att ladda upp en bild till Djurhimlen.
+          </p>
+          <p>
+            <a
+              href="#"
+              class="btn-continue jsViewBtn ir"
+              data-to-view="heaven"
+              data-from-view="start"
+              data-stats="index"
+            >
+              Fortsätt
+            </a>
+          </p>
+        </div>
+
+        <div id="upload" class="view upload-view">
+          <div class="inner-content">
+            <div class="upload-support">
+              <p class="ingress">
+                Bilden du laddar upp till himlen kommer inte synas på himlen
+                direkt. Vi lägger ut bilder varje vardag efter kl 15:00.
+              </p>
+
+              <form
+                id="animal-upload"
+                class=""
+                method="post"
+                action="#"
+                enctype="multipart/form-data"
+              >
+                <label for="file-picture" class="hidden">Välj bild:</label>
+                <div class="assets-sprite fileupload-wrapper">
+                  <input
+                    type="file"
+                    name="image"
+                    id="file-picture"
+                    accept="image/*"
+                  />
+                </div>
+                <div class="fileupload-text">
+                  (Vald bild:
+                  <span class="jsInputFileName">ingen bild vald</span>)
+                </div>
+
+                <label for="txt-name" class="assets-sprite animal-name-label ir"
+                  >Skriv djurets namn:</label
+                >
+                <input
+                  type="text"
+                  name="displayName"
+                  id="txt-name"
+                  class="txt-animal-name"
+                />
+
+                <input type="hidden" name="application.id" value="1" />
+                <button
+                  type="submit"
+                  name="btn-send"
+                  class="assets-sprite btn-send disabled ir"
+                >
+                  Skicka
+                </button>
+              </form>
+
+              <p class="upload-terms">
+                SVT kan bara visa din bild om du har tagit den själv och har
+                upphovsrätt till den. När du laddar upp en bild ger du SVT
+                rätten att kostnadsfritt sprida bilden till allmänheten genom tv
+                och SVT:s hemsida. Om du är under 18 år ska du ha dina
+                föräldrars tillstånd att låta SVT använda bilden.
+              </p>
+            </div>
+
+            <div class="no-upload-support">
+              <p class="ingress">
+                Tyvärr stödjer inte din enhet filuppladdning. Gå in på en dator
+                istället.
+              </p>
+            </div>
+
+            <a
+              href="#"
+              class="assets-sprite btn-open-heaven jsViewBtn ir"
+              data-to-view="heaven"
+              data-from-view="upload"
+            >
+              Öppna himlen
+            </a>
+          </div>
+        </div>
+
+        <div id="heaven" class="view heaven-view">
+          <div class="pictures">
+            <ul></ul>
+          </div>
+        </div>
+
+        <div class="cloud-container">
+          <div class="cloud cloud1"></div>
+          <div class="cloud cloud2"></div>
+          <div class="cloud cloud3"></div>
+        </div>
+      </div>
+
+      <div class="my-animals-bar transition-all invisible">
+        <ul class="my-animals-list"></ul>
+      </div>
+
+      <div class="search-area clearfix heaven-view view hidden">
+        <a
+          href="#"
+          class="btn-upload assets-sprite ir jsViewBtn"
+          data-to-view="upload"
+          data-from-view="heaven"
+        >
+          Ladda upp ditt djur
+        </a>
+
+        <label for="txt-search-animal" class="hidden"
+          >Skriv in ditt nummer</label
+        >
+        <input type="text" id="txt-search-animal" class="left" />
+        <button
+          id="btn-search"
+          type="submit"
+          class="left assets-sprite ir disabled"
+        >
+          Sök
+        </button>
+
+        <div class="assets-sprite my-animals-ddl left">
+          <span></span>
+          <select></select>
+        </div>
+        <button
+          id="btn-goto-animal"
+          type="submit"
+          class="left assets-sprite ir disabled"
+        >
+          Visa djur
+        </button>
+      </div>
+    </div>
+
+    <noscript>
+      <img
+        src="img/nojavascript.png"
+        class="no-js-img"
+        alt="Be en vuxen slå på Javascript"
+      />
+    </noscript>
+
+    <script>
+      window.gamestat = { log: () => undefined };
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.8.3.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/soundmanager2-nodebug-jsmin.js"></script>
+
+    <script src="js/4748dff.js"></script>
+  </body>
+</html>

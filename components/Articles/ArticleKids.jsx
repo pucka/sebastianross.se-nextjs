@@ -52,7 +52,7 @@ export const ArticleKids = () => {
         </p>
         <h3>Webbsida:</h3>
         <p>
-          <a href="demos/snoffe/?fakedata=1&fakeupload=1" target="_blank">
+          <a href="demos/snoffe/index.html?fakedata=1&fakeupload=1" target="_blank">
             Demo
           </a>
         </p>

@@ -1,0 +1,11 @@
+{
+	"picClouds" : "<li class=\"picture-container\"><div class=\"picture-inner\"><img class=\"img-pet\" alt=\"\"><img src=\"\" class=\"cloud-overlay\" alt=\"\"><span class=\"animal-name\"></span></div></li>",
+	"paging" : "<button type=\"button\" class=\"paging page-prev assets-sprite ir view heaven-view transition-blur\">Tidigare</button><button type=\"button\" class=\"paging page-next assets-sprite ir view heaven-view transition-blur\">Nästa</button>",
+	"msgView" : "<div class=\"msg-view\"><p><%= content %></p><a href=\"#\" class=\"close-btn ir\">Stäng</a></div>",
+	"msgViewNoClose" : "<div class=\"msg-view sticky\"><p><%= content %></p></div>",
+	"loader" : "<div class=\"loader\"><img src=\"img/loading-bg.png\" alt=\"\" /><span><%= content %></span></div>",
+	"overlay" : "<div class=\"overlay opacity-transition\"></div>",
+	"volume" : "<button type=\"button\" class=\"volume-btn opacity-transition no-opacity\"></button>",
+	"uploadSuccess" : "<div class=\"form-upload-complete\"><p>Vi har nu tagit emot ditt djur, men det kommer inte att synas på himlen direkt. Vi lägger upp nya djur på himlen vardagar efter kl 15:00.</p><p>Med hjälp av namnet här nedanför kan du söka efter ditt djur:</p><p><span class=\"txt-animal-name animal-code\"><%= code %></span></p></div>",
+	"oldie"	: "<div class=\"oldie\">För att kunna se Djurhimlen måste du uppgradera till Internet Explorer 8 eller högre</div>"
+}
