@@ -1,25 +1,26 @@
 import Image from "next/image";
 import Article from "../Article/Article";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 
 import snoffe1 from "../../public/img/case/snoffe/1.png";
 import snoffe2 from "../../public/img/case/snoffe/1.png";
 import snoffe3 from "../../public/img/case/snoffe/1.png";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleKids = () => {
   return (
     <Article header="Barnkanalen - Snoffe, döden & jag">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={snoffe1} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={snoffe2} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={snoffe3} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         <strong>Snoffe, döden &amp; jag</strong> är ett program på{" "}

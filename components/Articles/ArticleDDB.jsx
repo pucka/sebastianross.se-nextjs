@@ -1,21 +1,22 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 import Article from "../Article/Article";
+import Aside from "../Article/Aside";
 
 import image2 from "../../public/img/case/ddb/2.jpg";
 import image1 from "../../public/img/case/ddb/1.jpg";
-import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleDDB = () => {
   return (
     <Article header="DDB.se">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image src={image2} layout="responsive" alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image src={image1} layout="responsive" alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         DDB gjorde om sin företagssida i början av 2012 och valde då att göra en

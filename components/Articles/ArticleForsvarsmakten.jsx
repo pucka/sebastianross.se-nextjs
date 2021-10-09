@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 import Article from "../Article/Article";
 
 import image1 from "../../public/img/case/testvarverklighet/screen1.png";
@@ -10,32 +10,33 @@ import image5 from "../../public/img/case/testvarverklighet/screen5.png";
 import image6 from "../../public/img/case/testvarverklighet/screen6.png";
 import image7 from "../../public/img/case/testvarverklighet/screen7.png";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleForsvarsmakten = () => {
   return (
     <Article header="Försvarsmakten - Test: Vår verklighet">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={image1} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image2} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image3} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image4} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image5} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image6} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image7} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         En Facebook App där man bildar bildar ett lag med 7 av sina vänner. Man

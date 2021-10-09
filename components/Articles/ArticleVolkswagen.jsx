@@ -1,25 +1,26 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 import Article from "../Article/Article";
 import Aside from "../Article/Aside";
 
 import image1 from "../../public/img/case/bitforbit/screen1.png";
 import image2 from "../../public/img/case/bitforbit/screen2.png";
 import image3 from "../../public/img/case/bitforbit/screen3.png";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleVolkswagen = () => {
   return (
     <Article header="Volkswagen - Bit för bit">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={image1} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image2} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image3} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         Nya Volkswagen Beetle lanserades med en två veckors kampanj där en

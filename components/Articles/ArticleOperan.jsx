@@ -1,17 +1,18 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 import Article from "../Article/Article";
 
 import image1 from "../../public/img/case/operasoap/screen1.png";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleOperan = () => {
   return (
     <Article header="Operan - Opera Soap">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={image1} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         En minisajt för att promota Opera Soap, en tvål sponsrad av Kungliga

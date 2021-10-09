@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Article from "../Article/Article";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 
 import image1 from "../../public/img/case/svtnyheter/1.jpg";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleSvtNews = () => {
   return (
     <Article header="SVT Nyheter - Nyhetsapp">
       <ArticleSlider>
-        <div>
-          <Image src={image1} alt="" />
-        </div>
+        <ArticleSlide>
+          <Image layout="responsive" src={image1} alt="" />
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         I samband med omgörningen av SVTs nyhetswebb skulle det även släppas en

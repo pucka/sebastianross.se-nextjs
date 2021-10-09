@@ -1,7 +1,8 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
 import Article from "../Article/Article";
 import Aside from "../Article/Aside";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 import image1 from "../../public/img/case/svtplay/screen1.jpg";
 import image2 from "../../public/img/case/svtplay/screen2.jpg";
@@ -11,15 +12,15 @@ export const ArticleSvtPlay = () => {
   return (
     <Article header="SVT Play">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={image1} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image2} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image3} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         <strong>SVT Play</strong> har genomgått en totalrenovering när det

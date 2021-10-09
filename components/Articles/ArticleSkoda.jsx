@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 import Article from "../Article/Article";
 
 import image1 from "../../public/img/case/familjekompositoren/screen1.png";
@@ -7,23 +7,24 @@ import image2 from "../../public/img/case/familjekompositoren/screen2.png";
 import image3 from "../../public/img/case/familjekompositoren/screen3.png";
 import image4 from "../../public/img/case/familjekompositoren/screen4.png";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleSkoda = () => {
   return (
     <Article header="Skoda - Familjekompositören">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image layout="responsive" src={image1} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image2} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image3} alt="" />
-        </div>
-        <div>
+        </ArticleSlide>
+        <ArticleSlide>
           <Image layout="responsive" src={image4} alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         En kampanj där syftet var att promota Skodas familjebilar. Analyserar

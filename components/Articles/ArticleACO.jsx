@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Article from "../Article/Article";
-import ArticleSlider from "../ArticleSlider";
+import ArticleSlider from "../ArticleSlider/ArticleSlider";
 
 import image1 from "../../public/img/case/spotlesscomeback/screen1.png";
 import Aside from "../Article/Aside";
+import ArticleSlide from "../ArticleSlider/ArticleSlide";
 
 export const ArticleACO = () => {
   return (
     <Article header="ACO - Spotless Comeback">
       <ArticleSlider>
-        <div>
+        <ArticleSlide>
           <Image src={image1} layout="responsive" alt="" />
-        </div>
+        </ArticleSlide>
       </ArticleSlider>
       <p>
         ACO lanserade 2009 sin nya produktserie mot finnar. Spelet var
