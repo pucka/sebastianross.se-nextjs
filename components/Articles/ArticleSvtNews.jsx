@@ -39,14 +39,14 @@ export const ArticleSvtNews = () => {
         <p>C#, Objective-C / .NET (Visual Studio), X-Code, Urban Airship</p>
         <h3>Länkar:</h3>
         <p>
-          <a
+          {/* <a
             href="http://www.windowsphone.com/sv-se/store/app/svt-nyheter/fc1c3d88-1d99-4489-aa3b-751948a431b5"
             target="_blank"
             rel="noreferrer"
           >
             Windows Phone
           </a>
-          ,
+          , */}
           <a
             href="https://itunes.apple.com/se/app/svt-nyheter/id735240056?mt=8"
             target="_blank"

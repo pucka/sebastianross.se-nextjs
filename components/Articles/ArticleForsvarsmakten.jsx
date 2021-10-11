@@ -56,7 +56,7 @@ export const ArticleForsvarsmakten = () => {
         <p>Lead Developer</p>
         <h3>Språk/Ramverk:</h3>
         <p>AS3,PHP / Facebook Graph API</p>
-        <h3>Webbsida:</h3>
+        {/* <h3>Webbsida:</h3>
         <p>
           <a
             href="http://apps.facebook.com/test-var-verklighet/"
@@ -65,7 +65,7 @@ export const ArticleForsvarsmakten = () => {
           >
             apps.facebook.com/test-var-verklighet/
           </a>
-        </p>
+        </p> */}
       </Aside>
     </Article>
   );

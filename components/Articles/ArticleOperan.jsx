@@ -24,12 +24,12 @@ export const ArticleOperan = () => {
         <p>Developer</p>
         <h3>Språk/Ramverk:</h3>
         <p>HTML, AS3 / jQuery</p>
-        <h3>Webbsida:</h3>
+        {/* <h3>Webbsida:</h3>
         <p>
           <a href="http://operasoap.se/" target="_blank" rel="noreferrer">
             www.operasoap.se
           </a>
-        </p>
+        </p> */}
       </Aside>
     </Article>
   );

@@ -43,7 +43,7 @@ export const ArticleSkoda = () => {
         <p>Lead Developer</p>
         <h3>Språk/Ramverk:</h3>
         <p>C,PHP,HTML5 / Libspotify, jQuery, Facebook Graph API</p>
-        <h3>Demo:</h3>
+        {/* <h3>Demo:</h3>
         <p>
           <a
             href="http://sites.adqualifier.com/skoda/familjekompositoren/"
@@ -52,7 +52,7 @@ export const ArticleSkoda = () => {
           >
             www.familjekompositoren.se
           </a>
-        </p>
+        </p> */}
       </Aside>
     </Article>
   );

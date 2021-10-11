@@ -35,7 +35,7 @@ export const ArticleACO = () => {
         <p>Lead Developer</p>
         <h3>Språk/Ramverk:</h3>
         <p>AS3</p>
-        <h3>Webbsida:</h3>
+        {/* <h3>Webbsida:</h3>
         <p>
           <a
             href="http://www.spotlesscomeback.com/tavling/"
@@ -44,7 +44,7 @@ export const ArticleACO = () => {
           >
             www.spotlesscomeback.com/tavling
           </a>
-        </p>
+        </p> */}
       </Aside>
     </Article>
   );
