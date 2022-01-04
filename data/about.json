@@ -1,0 +1,12 @@
+[
+    {
+        "locale": "sv",
+        "title": "Om mig",
+        "text": "<p>Hej, mitt namn är Sebastian Ross och jag är webbutvecklare. Kontakta mig gärna på sebbeross[at]gmail.com om det är något du undrar.<br /> /Sebastian</p>"
+    },
+    {
+        "locale": "en",
+        "title": "About me",
+        "text": "<p>Hello, my name is Sebastian Ross and I'm a Developer.</p>"
+    }
+]

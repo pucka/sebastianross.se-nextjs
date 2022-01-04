@@ -1,0 +1,182 @@
+[
+    {
+        "locale": "sv",
+        "title": "SVT Play",
+        "text": "<p><strong>SVT Play</strong> har genomgått en totalrenovering när det gäller utvecklingplattform. Tidigare var <strong>svtplay.se</strong> byggt med Java-ramverket <a href=\"https://www.playframework.com/\" target=\"_blank\" rel=\"noreferrer\">Play Framework</a> med ett MVC-liknande upplägg. Det blev snabbt ganska komplext och svårt för icke-insatta utvecklare att fortsätta bygga vidare på den plattformen. Samtidigt började många andra intressanta alternativ dyka upp. Vi bestämde oss för att bytta hela stacken och köra Javascript helavägen. <a href=\"https://nodejs.org/\" target=\"_blank\" rel=\"noreferrer\">Node.js</a> får agera server och <a href=\"https://facebook.github.io/react/\" target=\"_blank\" rel=\"noreferrer\">React</a> sköter renderingen. Både på serversidan som hos klientsidan (Universal Javascript) . I och med React använder vi även <a href=\"https://facebook.github.io/flux/\" target=\"_blank\" rel=\"noreferrer\">Flux</a> för applikationens dataflöde.</p>",
+        "images": [
+            "case/svtplay/screen1.jpg",
+            "case/svtplay/screen2.jpg",
+            "case/svtplay/screen3.jpg"
+        ],
+        "imageSize": {
+            "width": 912,
+            "height": 512
+        },
+        "aside": {
+            "Roll": "Developer",
+            "Språk/Ramverk:": "Javascript / Node.js, React, Fluxible, Redux",
+            "Webbsida": "<a href=\"https://www.svtplay.se\" target=\"_blank\">www.svtplay.se</a>"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "SVT Flow",
+        "text": "<p>SVT lanserar ett nytt sätt att se på TV online. Kombinera TVns sträcktittning med online-tjänsters valfrihet i en snygg paketering så har du SVT Flow. All videos visas i en overlay som täcker hela webbläsaren för att ge en mer tv-känsla.</p>",
+        "images": [
+            "case/svtflow/screen1.jpg",
+            "case/svtflow/screen2.jpg"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 512
+        },
+        "aside": {
+            "Roll": "Developer",
+            "Språk/Ramverk:": "Java, Javascript / Play Framework, Require.js, Jasmine, jQuery, History.js",
+            "Länkar": "<a href=\"http://www.svtflow.se\" target=\"_blank\" rel=\"noreferrer\">www.svtflow.se</a> (site cancelled 2015)"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "SVT Nyheter - Nyhetsapp",
+        "text": "<p>I samband med omgörningen av SVTs nyhetswebb skulle det även släppas en wrapperapp för <b>iOS</b>, <b>Windows Phone</b> och <b>Android</b>. Förutom att kunna använda sajten skulle det även finnas en bokmärkesfunktion, delning och pushnotiser. Min uppgift var att göra Windows Phone-appen och även hjälpa till med iOS-appen.</p><p>Den stora utmaningen i det här projektet var att synkronisera pushnotiserna så att redaktörer skulle slippa sitta och göra tre olika pushsessioner varje gång de ville få ut en notis. Till hjälp använde vi <a href=\"http://urbanairship.com\" target=\"_blank\" rel=\"noreferrer\">Urban Airship</a> som tillhandahåller verktyg för att kunna skicka pushnotiser till de tre plattformarna. Med deras API byggde vi en panel i nyheternas CMS där de snabbt och enkelt kan droppa artiklar som de vill ska pushas till appen.</p>",
+        "images": [
+            "case/svtnyheter/1.jpg"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 480
+        },
+        "aside": {
+            "Roll": "Lead Developer (Windows Phone), Developer (iOS)",
+            "Språk/Ramverk:": "C#, Objective-C / .NET (Visual Studio), X-Code, Urban Airship",
+            "Webbsida": "<a href=\"https://itunes.apple.com/se/app/svt-nyheter/id735240056?mt=8\" target=\"_blank\">iOS</a>"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "Barnkanalen - Snoffe, döden & jag",
+        "text": "<p><strong>Snoffe, döden &amp; jag</strong> är ett program på <a href=\"http://www.svt.se/barnkanalen/snoffe_doden_och_jag/\" target=\"_blank\" rel=\"noreferrer\">Barnkanalen</a> som handlar om barn/ungdomar som har haft husdjur som gått bort. Som ett komplement till programmet så gjordes en applikation till webben där tittarna kan ladda upp bilder på sina egna husdjur som gått bort. Dessa hamnar då i en digital himmel.</p><p>Applikation fungerar på de flesta enheter i och med att den är responsiv. Den förlitar sig även mycket på feature detection. Modernare webbläsare med stöd för CSS 3D får en mer avancerad version där ett 3d-djup gör att himlen känns ännu mer levande.</p>",
+        "images": [
+            "case/snoffe/1.png",
+            "case/snoffe/2.png",
+            "case/snoffe/3.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 512
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "HTML5 (CSS 3D-Transforms, CSS Animations, Canvas, Local Storage), Java / jQuery, SASS, GSAP, Play Framework 2",
+            "Webbsida": "<a href=\"demos/snoffe/index.html?fakedata=1&fakeupload=1\" target=\"_blank\">Demo</a>"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "DDB.se",
+        "text": "<p>DDB gjorde om sin företagssida i början av 2012 och valde då att göra en responsiv sida med ett enkelt CMS som lätt ska kunna lokaliseras då alla DDB-kontor i norden skulle använda samma mall. Detta gjordes som ett tema till Wordpress då dessa är enkla att installera och uppdatera.</p><p>Sidan kombinerar CSS transitions med JS för en optimal upplevelse oavsett vilken enhet du använder. Att använda sajten på en iPad ska vara minst lika enkelt som på en dator.</p>",
+        "images": [
+            "case/ddb/1.jpg",
+            "case/ddb/2.jpg"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 480
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "HTML5, JS, CSS, PHP / WordPress, jQuery"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "Volkswagen - Bit för bit",
+        "text": "<p>Nya Volkswagen Beetle lanserades med en två veckors kampanj där en lycklig vinnare vann en Beetle. Med hjälp av ledtrådar utspridda på diverse bloggar, minisajter samt facebook skulle man samla delar för att bygga ihop en digital Beetle.</p><p>Sajten byggdes i en desktop och en mobil variant med kravet att de inte skulle skilja i funktionalitet. Mycket tid lades ner på att hålla hög säkerhet. Sajterna höll hög teknisk kvalitet och utnyttjade bl.a History API, CSS Transitions samt helt AJAX baserade sidvisningar.</p>",
+        "images": [
+            "case/bitforbit/screen1.png",
+            "case/bitforbit/screen2.png",
+            "case/bitforbit/screen3.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 590
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "PHP, HTML5 / jQuery, History.js, Facebook Graph API, Hybridauth",
+            "Webbsida": "Finns ej (Kampanjen varade endast i två veckor och plockades sedan ner)"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "Skoda - Familjekompositören",
+        "text": "<p>En kampanj där syftet var att promota Skodas familjebilar. Analyserar din Spotify Topplista eller Spotify spellista för att matcha det med andra personer. En topplista presenteras med de personer som du har mest gemensamma låtar/artister med.</p><p>Projektet krävde även att jag byggde en enklare webserver med ett REST-API i C. Detta för att kunna skapa Spotify-spellistor dynamiskt samt hämta ut en användares toplistor med hjälp Spotifys C-bibliotek Libspotify.</p>",
+        "images": [
+            "case/familjekompositoren/screen1.png",
+            "case/familjekompositoren/screen2.png",
+            "case/familjekompositoren/screen3.png",
+            "case/familjekompositoren/screen4.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 398
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "C,PHP,HTML5 / Libspotify, jQuery, Facebook Graph API"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "Försvarsmakten - Test: Vår verklighet",
+        "text": "<p>En Facebook App där man bildar bildar ett lag med 7 av sina vänner. Man ska sedan lösa pussel samt svara på frågor om sina kompisar som rör deras aktivitet på Facebook. Lagen tävlar sedan om att va den bästa gruppen på topplistan som baseras på lagets totala poäng samt tid.</p><p>Detta är en flashapplikation som drar nytta av många metoder i Facebook Graph API. Utmaningen låg dels i att göra de små spelen enkla men utmanande samt att filtrera ut väsentlig FB -data från de tävlande laget. Jag har varit med och utvecklat flash-delen samt byggt hela Facebook-integrationen.</p>",
+        "images": [
+            "case/testvarverklighet/screen1.png",
+            "case/testvarverklighet/screen2.png",
+            "case/testvarverklighet/screen3.png",
+            "case/testvarverklighet/screen4.png",
+            "case/testvarverklighet/screen5.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 500
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "AS3,PHP / Facebook Graph API"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "Operan - Opera Soap",
+        "text": "<p>En minisajt för att promota Opera Soap, en tvål sponsrad av Kungliga Operan. Sidan är Responsive och fungerar på alla typer av skärmstorlekar.</p>",
+        "images": [
+            "case/operasoap/screen1.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 392
+        },
+        "aside": {
+            "Roll": "Developer",
+            "Språk/Ramverk:": "HTML, AS3 / jQuery"
+        }
+    },
+    {
+        "locale": "sv",
+        "title": "ACO - Spotless Comeback",
+        "text": "<p>ACO lanserade 2009 sin nya produktserie mot finnar. Spelet var huvuddelen i en kampanj där man besegrar mobbare med kraftfulla comebacks. Många priser låg i potten och kampanjen vann guld och silver i Eurobest.</p><p>Jag har gjort all utveckling Frontend (AS3) samt ett enkelt CMS Backend(.NET) som hanterar de ca 100+ olika fraser och comebacks som används i spelet. Musiken använder sig av <a href=\"http://www.dinahmoe.com/\" target=\"_blank\" rel=\"noreferrer\">Dinahmoes</a> ljudmotor som jag integrerar och synkar med princip allt rörligt i spelet.</p>",
+        "images": [
+            "case/spotlesscomeback/screen1.png"
+        ],
+        "imageSize": {
+            "width": 768,
+            "height": 538
+        },
+        "aside": {
+            "Roll": "Lead Developer",
+            "Språk/Ramverk:": "AS3"
+        }
+    }
+]
