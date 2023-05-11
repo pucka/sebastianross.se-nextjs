@@ -1,0 +1,53 @@
+.ross_article {
+  margin-bottom: 20px;
+}
+
+.ross_article p {
+  margin: 0 0 10px;
+  line-height: 1.5em;
+}
+
+.ross_article p img {
+  display: block;
+  margin: 10px auto 10px;
+}
+
+.ross_article a {
+  color: #992e0a;
+  text-decoration: none;
+}
+
+.ross_article a &:hover {
+  border-bottom: 1px solid #992e0a;
+}
+
+.ross_article__header {
+  margin-bottom: 8px;
+}
+
+.ross_article__title {
+  font-family: var(--font-existence-light), Helvetica, Arial, sans-serif;
+  /* 22/13 */
+  font-size: 1.692307692em;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #c73b0b;
+  border-bottom: 1px solid #c73b0b;
+}
+
+@media all and (min-width: 480px) {
+  .ross_article p {
+    margin-left: 2.5%;
+  }
+
+  .ross_article p img {
+    float: left;
+    margin: 10px 20px 3px -2.5%;
+  }
+
+  .ross_article__title {
+    /* 22/13 */
+    font-size: 2.307692308em;
+  }
+}

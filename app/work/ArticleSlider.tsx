@@ -1,7 +1,9 @@
+'use client';
+
 import * as React from "react";
 import classNames from "classnames";
 import useEmblaCarousel from "embla-carousel-react";
-import styles from "./ArticleSlider.module.scss";
+import styles from "./ArticleSlider.module.css";
 
 const NextButton = ({ enabled, onClick }) => {
   if (!enabled) {
@@ -52,7 +54,7 @@ const ArticleSlider = ({ children }) => {
   const [prevBtnEnabled, setPrevBtnEnabled] = React.useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = React.useState(false);
 
-  const [emblaRef, embla] = useEmblaCarousel({ loop: true, speed: 15 });
+  const [emblaRef, embla] = useEmblaCarousel({ loop: true, duration: 15 });
 
   const scrollPrev = React.useCallback(
     () => embla && embla.scrollPrev(),

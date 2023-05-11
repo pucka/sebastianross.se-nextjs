@@ -1,7 +1,0 @@
-@import "breakpoints";
-
-.ross_articles__container {
-  @media all and (min-width: $breakpoint-large) {
-    width: 62.8888889%; /* 566/900 */
-  }
-}

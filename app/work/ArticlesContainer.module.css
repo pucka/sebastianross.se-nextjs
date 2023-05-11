@@ -1,0 +1,23 @@
+.ross_article__about {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+}
+
+@media all and (min-width: 480px) {
+  .ross_article__about p {
+    margin-left: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .ross_articles__container {
+    /* 566/900 */
+    width: 62.8888889%;
+  }
+}

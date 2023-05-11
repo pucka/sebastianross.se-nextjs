@@ -1,4 +1,4 @@
-import styles from "./MainHeader.module.scss";
+import styles from "./Header.module.css";
 import GuthubLogo from "../../public/img/logos/github.png";
 import LinkedinLogo from "../../public/img/logos/linkedin.png";
 import Image from "next/image";

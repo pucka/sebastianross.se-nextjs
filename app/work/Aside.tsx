@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import styles from "./Aside.module.scss";
+import styles from "./Aside.module.css";
 
 const Aside = ({ children }) => {
   return (

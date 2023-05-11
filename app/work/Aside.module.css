@@ -1,0 +1,28 @@
+.ross_article__aside {
+  background: #ededed;
+  padding: 15px 2.5% 10px;
+  margin-bottom: 30px;
+}
+
+.ross_article__aside p {
+  float: left;
+  clear: left;
+  font-size: 0.923076923em;
+  line-height: 1.2;
+  margin-left: 0;
+}
+
+.ross_article__aside h3 {
+  float: left;
+  clear: left;
+  font-size: 0.923076923em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+@media all and (min-width: 768px) {
+  .ross_article__aside p {
+    clear: none;
+    margin-left: 5px;
+  }
+}

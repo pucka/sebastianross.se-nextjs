@@ -1,34 +1,35 @@
 import * as React from "react";
-import About from "../About/About";
-import styles from "./ArticlesContainer.module.scss";
-import articles from "../../data/articles.json";
-import { useRouter } from "next/router";
-import Article from "../Article/Article";
-import Aside from "../Article/Aside";
-import ArticleSlider from "../ArticleSlider/ArticleSlider";
-import ArticleSlide from "../ArticleSlider/ArticleSlide";
 import Image from "next/image";
+import styles from "./ArticlesContainer.module.css";
+import Article from "./Article";
+import Aside from "./Aside";
+import ArticleSlider from "./ArticleSlider";
 
 //TODO: Move all content to CMS
-const ArticlesContainer = () => {
-  const { locale } = useRouter();
+import articles from "../../data/articles.json";
+import about from "../../data/about.json";
+
+const ArticlesContainer = ({ locale }) => {
+  const pageArticles = articles.filter((article) => article.locale === locale);
+  const aboutArticle = about.find((item) => item.locale === locale)
+
   return (
     <div className={styles.ross_articles__container}>
-      {articles
-        .filter((article) => article.locale === locale)
-        .map((article) => (
+      {(pageArticles ?? [])
+        .map((article, index) => (
           <Article key={article.title} header={article.title}>
             <ArticleSlider>
               {article.images.map((image) => (
-                <ArticleSlide key={image}>
+                <div className={styles.embla__slide} key={image}>
                   <Image
                     src={`/img/${image}`}
                     width={article.imageSize.width}
                     height={article.imageSize.height}
-                    layout="responsive"
                     alt=""
+                    style={{ width: '100%', height: 'auto' }}
+                    priority={index === 0}
                   />
-                </ArticleSlide>
+                </div>
               ))}
             </ArticleSlider>
             <div dangerouslySetInnerHTML={{ __html: article.text }} />
@@ -42,7 +43,13 @@ const ArticlesContainer = () => {
             </Aside>
           </Article>
         ))}
-      <About locale={locale} />
+      <Article className={styles.ross_article__about} header={aboutArticle?.title}>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: aboutArticle?.text ?? '',
+          }}
+        />
+      </Article>
     </div>
   );
 };

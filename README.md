@@ -1,6 +1,6 @@
 # sebastianross.se
 
-This is my private site containing work I've done. It's based on Next.js using Typescript and SCSS. 
+This is my private site containing work I've done. It's based on Next.js using Typescript.
 
 ## Getting Started
 

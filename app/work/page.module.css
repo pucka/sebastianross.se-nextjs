@@ -1,0 +1,20 @@
+.ross_main__container {
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 95%;
+}
+
+.ross_footer {
+  padding: 15px 0;
+  color: #fff;
+  height: 100px;
+  background: #000;
+  background-image: linear-gradient(-90deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0) 100%);
+}
+
+.ross_footer p {
+  margin: 0 auto;
+  width: 90%;
+}
