@@ -1,7 +1,12 @@
 import classNames from "classnames";
 import styles from "./Article.module.css";
 
-const Article = ({ header, className, children }) => {
+interface IArticleProps {
+  header?: string;
+  children: React.ReactNode;
+  className?: string;
+}
+const Article:React.FC<IArticleProps> = ({ header, className, children }) => {
   return (
     <article className={classNames(styles.ross_article, className)}>
       <header className={styles.ross_article__header}>
