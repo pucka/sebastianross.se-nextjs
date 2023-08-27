@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import * as React from "react";
 import classNames from "classnames";
@@ -14,7 +14,7 @@ const NextButton = ({ enabled, onClick }) => {
     <button
       className={classNames(
         styles.embla__button,
-        styles["embla__button--next"]
+        styles["embla__button--next"],
       )}
       onClick={onClick}
       disabled={!enabled}
@@ -35,7 +35,7 @@ const PrevButton = ({ enabled, onClick }) => {
     <button
       className={classNames(
         styles.embla__button,
-        styles["embla__button--prev"]
+        styles["embla__button--prev"],
       )}
       onClick={onClick}
       disabled={!enabled}
@@ -58,11 +58,11 @@ const ArticleSlider = ({ children }) => {
 
   const scrollPrev = React.useCallback(
     () => embla && embla.scrollPrev(),
-    [embla]
+    [embla],
   );
   const scrollNext = React.useCallback(
     () => embla && embla.scrollNext(),
-    [embla]
+    [embla],
   );
 
   const onSelect = React.useCallback(() => {

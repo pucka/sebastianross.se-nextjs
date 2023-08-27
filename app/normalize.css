@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -348,11 +350,9 @@ template {
   display: none;
 }
 
-
 * {
   box-sizing: content-box;
 }
-
 
 html,
 button,
@@ -422,8 +422,11 @@ textarea {
   resize: vertical;
 }
 
-img,video,object,embed {
-  max-width:100%;
+img,
+video,
+object,
+embed {
+  max-width: 100%;
   width: 100%;
 }
 
@@ -460,4 +463,3 @@ img,video,object,embed {
 .clearfix {
   *zoom: 1;
 }
-

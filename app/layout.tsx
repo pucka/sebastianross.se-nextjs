@@ -1,26 +1,26 @@
-import type { Metadata } from "next"
-import './normalize.css'
-import './globals.css'
-import { code, existence } from "./fonts"
+import type { Metadata } from "next";
+import "./normalize.css";
+import "./globals.css";
+import { code, existence } from "./fonts";
 
 export const metadata: Metadata = {
-    title: 'Sebastian Ross - Developer / Musician / Gamer',
-    description: 'Developer with the web in focus',
-    robots: 'noindex',
-    viewport: 'width=device-width, initial-scale=1, minimum-scale=1'
-}
+  title: "Sebastian Ross - Developer / Musician / Gamer",
+  description: "Developer with the web in focus",
+  robots: "noindex",
+  viewport: "width=device-width, initial-scale=1, minimum-scale=1",
+};
 
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="sv">
-            <body className={`${code.variable} ${existence.variable}`}>
-                <div
-                    dangerouslySetInnerHTML={{
-                        __html: ` <!--
+  return (
+    <html lang="sv">
+      <body className={`${code.variable} ${existence.variable}`}>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: ` <!--
               Self portrait :/
               ........:?8Z7ODDDDDNDNDDNDDD$,..........
               ......,ODDD+~?ZD8O8OD$O8D8MDDDI.........
@@ -57,10 +57,10 @@ export default function RootLayout({
               O888OOOOOOOD8O88OO+~::::7888MMOOO88O8DD8
               O888888O8DDD8O88DOD::::IOOOMN8O88D8D8888
               -->`,
-                    }}
-                />
-                {children}
-            </body>
-        </html>
-    )
+          }}
+        />
+        {children}
+      </body>
+    </html>
+  );
 }

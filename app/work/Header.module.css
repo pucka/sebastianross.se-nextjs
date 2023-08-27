@@ -25,7 +25,7 @@
   justify-content: flex-end;
 }
 
-.ross_header__logos > *+* {
+.ross_header__logos > * + * {
   margin-left: 8px;
 }
 
@@ -35,7 +35,7 @@
   height: 24px;
 }
 
-.ross_header__logo>img {
+.ross_header__logo > img {
   height: auto;
 }
 
@@ -65,5 +65,4 @@
     width: 32px;
     height: 32px;
   }
-
 }

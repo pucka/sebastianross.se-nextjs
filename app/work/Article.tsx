@@ -6,7 +6,7 @@ interface IArticleProps {
   children: React.ReactNode;
   className?: string;
 }
-const Article:React.FC<IArticleProps> = ({ header, className, children }) => {
+const Article: React.FC<IArticleProps> = ({ header, className, children }) => {
   return (
     <article className={classNames(styles.ross_article, className)}>
       <header className={styles.ross_article__header}>

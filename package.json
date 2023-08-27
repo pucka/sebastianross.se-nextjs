@@ -1,6 +1,6 @@
 {
   "name": "sebastianross.se-nextjs",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,17 +10,18 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "embla-carousel-react": "^8.0.0-rc03",
-    "next": "^13.4.1",
+    "embla-carousel-react": "^8.0.0-rc12",
+    "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.32.1"
+    "sharp": "^0.32.5"
   },
   "devDependencies": {
-    "@types/node": "^20.1.2",
-    "@types/react": "^18.2.6",
-    "eslint": "8.40.0 ",
-    "eslint-config-next": "^13.4.1",
-    "typescript": "^5.0.4"
+    "@types/node": "^20.5.6",
+    "@types/react": "^18.2.21",
+    "eslint": "8.48.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "typescript": "^5.2.2"
   }
 }

@@ -1,5 +1,5 @@
-import styles from './page.module.css';
+import styles from "./page.module.css";
 
 export default function Root() {
-    return <div className={styles.main}>Hello!</div>
+  return <div className={styles.main}>Hello!</div>;
 }
